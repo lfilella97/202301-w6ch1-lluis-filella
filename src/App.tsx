@@ -1,3 +1,4 @@
+import "./styles/resets.css";
 import Layout from "./components/Layout/Layout";
 
 const App = () => {
