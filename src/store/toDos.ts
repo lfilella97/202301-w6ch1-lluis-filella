@@ -1,4 +1,14 @@
-const mookApiResponse = {
+export interface mokedApiResponseStructure {
+  toDos: ToDoStructure[];
+}
+
+export type ToDoListStructure = ToDoStructure[];
+export interface ToDoStructure {
+  id: number;
+  name: string;
+  isDone: boolean;
+}
+const mookApiResponse: mokedApiResponseStructure = {
   toDos: [
     {
       id: 1,
